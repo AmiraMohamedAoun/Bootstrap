@@ -1,0 +1,30 @@
+/* start navbar section */
+nav{
+    margin: 0 12em;
+}
+nav ul{
+    margin-left: 62%;
+}
+
+@media only screen and (max-width:768px){
+    nav{
+        margin: 0;
+    }
+    nav ul{
+        margin-left: 8%;
+    }
+}
+/* end navbar section */
+/* start app section */
+.app , .footer{
+    background-image: linear-gradient(45deg, #8B008B, #8B008B, #FF1493);
+}
+
+.app h3{
+    font-family: cursive;
+    padding: 20px 0;
+}
+.app img{
+    width: 20%;
+}
+/* end app section */
